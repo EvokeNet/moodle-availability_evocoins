@@ -1,0 +1,10 @@
+{
+  "name": "moodle-availability_evocoins-form",
+  "builds": {
+    "moodle-availability_evocoins-form": {
+      "jsfiles": [
+        "form.js"
+      ]
+    }
+  }
+}
