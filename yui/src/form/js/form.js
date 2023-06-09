@@ -15,7 +15,7 @@ M.availability_evocoins.form.getNode = function(json) {
     html = '';
     html += '<label for="evocoins">';
     html += M.util.get_string('fieldlabel', 'availability_evocoins') + '</label>';
-    html += '<input type="number" name="evocoins" id="evocoins" min="1" step="1">';
+    html += '<input class="form-control" type="number" name="evocoins" id="evocoins" min="1" step="1">';
     node = Y.Node.create('<span class="form-inline">' + html + '</span>');
 
     // Set initial values.
